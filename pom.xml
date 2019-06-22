@@ -129,7 +129,8 @@
                                         <execution>
                                                 <phase>verify</phase>
                                                 <goals>
-                                                        <goal>pmd</goal>
+                                                        <!-- <goal>pmd</goal> -->
+                                                        <goal>check</goal>
                                                 </goals>
                                         </execution>
                                 </executions>
